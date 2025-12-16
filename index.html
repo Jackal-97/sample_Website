@@ -4,14 +4,15 @@
 <head>
   <title>Learn Enough to Be Dangerous 掌握足够多成为技术高手</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
 
-  <div>
-    <a href="index.html">Home</a>
-    <a href="moby_dick.html">Moby Dick</a>
-    <a href="tags.html">HTML Tags</a>
+  <div id="main-nav" class="nav-menu">
+    <a href="index.html" style="text-decoration: none;">Home</a>
+    <a href="tags.html" class="nav-spacing" style="text-decoration: none;">HTML Tags</a>
+    <a href="moby_dick.html" class="nav-spacing" style="text-decoration: none;">Moby Dick</a>
   </div>
 
   <h1>The Learn Enough Story 故事</h1>
@@ -25,7 +26,7 @@
   </p>
   <p>
     <a href="https://twitter.com/learnenough" target="_blank" rel="noopener" style="text-decoration: none;">
-      <img src="images/small_twitter_log.png" alt="small_twitter_log">
+      <img src="images/small_twitter_logo.png" alt="small_twitter_log">
     </a>
     You should follow Learn Enough on Twitter
     <a href="https://twitter.com/learnenough" target="_blank" rel="noopener">here</a>.
@@ -45,6 +46,25 @@
 
   <img src="images/kitten.jpg" alt="An adorable kitten">
 
+  <h2>Quotations 语录</h2>
+  <p>
+    In addition to hosting most of the world's supply of kitten videos, the Web is also full of inspiring quotes,
+    perhaps none more so than this one:
+  </p>
+  <p>
+    除了拥有世界上大部分的萌猫视频之外,互联网上也充斥着许多鼓舞人心的名言,其中最令人印象深刻的莫过于这句:
+  </p>
+  <blockquote style="padding: 2px 20px; background: #b9b6b6;">
+    <p>
+      <em>Don't believe every quote you read on the Internet.</em>
+      <br>
+      —Abraham Lincoln
+      <em>不要轻信你在网上看到的每一句名言.</em>
+      <br>
+      —亚伯拉罕·林肯
+    </p>
+  </blockquote>
+
   <h2>Background 背景</h2>
   <p>
     Learn Enough to Be Dangerous is an outgrowth of the
@@ -62,7 +82,7 @@
     Dangerous 示例网站的一部分, 该网站教授超文本标记语言 HTML 的基础知识, HTML 是万维网的通用语言. 其他相关教程可在 learnenough.com 上找到.
   </p>
 
-  <h2>Founders 创始人</h2>
+  <h2 id="founders">Founders 创始人</h2>
   <p>
     Learn Enough to Be Dangerous was founded in 2015 by Michael Hartl, Lee Donahoe, and Nick Merwin. We believe that the
     kind of technical sophistication taught by the Learn Enough tutorials can benefit <em><strong>at least a billion
